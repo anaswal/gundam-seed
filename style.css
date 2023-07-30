@@ -95,6 +95,22 @@ a {
 .gundam-img > img {
   width: 150px;
   height: 150px;
-  border: 5px solid #3882f6;
+  border: 3px solid #3882f6;
   border-radius: 8px;
+}
+/* Quote Section */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 330px;
+}
+
+.paragraph-quote > p {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-maker > p {
+  text-align: left;
+  font-weight: bold;
 }
