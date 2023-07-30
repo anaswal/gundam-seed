@@ -110,7 +110,7 @@ a {
   font-style: italic;
 }
 
-.quote-maker > p {
-  text-align: left;
+.p-quote {
+  text-align: right;
   font-weight: bold;
 }
