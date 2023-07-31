@@ -41,6 +41,11 @@ a {
   width: 150px;
 }
 
+li > a:hover {
+  text-shadow: 0 0 3px #fff, 0 0 5px #fff;
+  transition: all 0.2s;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
