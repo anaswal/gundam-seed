@@ -41,10 +41,17 @@ a {
   width: 150px;
 }
 
-li > a:hover {
-  transition: all 0.2s;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 10px;
+li > a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #e5e7eb;
+  transition: width 0.3s;
+}
+
+li > a:hover::after {
+  width: 100%;
 }
 
 .hero {
