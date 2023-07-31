@@ -140,3 +140,15 @@ a {
 .signup-button > button {
   border: 1px solid white;
 }
+
+/* Footer Section */
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #f9faf8;
+  padding: 10px 0;
+}
+
+p > a {
+  text-decoration: underline;
+}
