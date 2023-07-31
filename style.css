@@ -42,8 +42,9 @@ a {
 }
 
 li > a:hover {
-  text-shadow: 0 0 3px #fff, 0 0 5px #fff;
   transition: all 0.2s;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
 }
 
 .hero {
